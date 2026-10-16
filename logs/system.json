@@ -1,0 +1,221 @@
+{
+  "version": {
+    "pinokiod": "8.2.0",
+    "pinokio": "8.2.0"
+  },
+  "platform": "win32",
+  "arch": "x64",
+  "home": "C:\\Users\\ADNAN\\Downloads\\api-hub\\api-hub",
+  "scripts": [],
+  "shells": [],
+  "proxies": [],
+  "api": [],
+  "bin": {
+    "conda": {
+      "installed": []
+    }
+  },
+  "vars": {
+    "pip": {
+      "install": {
+        "torch": "pip3 install torch torchvision torchaudio"
+      }
+    }
+  },
+  "memory": {
+    "local": {},
+    "global": {},
+    "rpc": {},
+    "input": {},
+    "args": {}
+  },
+  "procs": {},
+  "gpu": "intel corporation",
+  "gpus": [
+    {
+      "name": "intel corporation",
+      "model": "intel(r) hd graphics 530",
+      "driver": null
+    }
+  ],
+  "gpu_target": null,
+  "mem": {
+    "total": 8471027712,
+    "free": 1074757632,
+    "used": 7396270080,
+    "active": 7396270080,
+    "available": 1074757632,
+    "buffers": 0,
+    "cached": 0,
+    "slab": 0,
+    "buffcache": 0,
+    "reclaimable": 0,
+    "swaptotal": 6174015488,
+    "swapused": 1167065088,
+    "swapfree": 5006950400,
+    "writeback": null,
+    "dirty": null
+  },
+  "ram": 8,
+  "osInfo": {
+    "platform": "Windows",
+    "distro": "Microsoft Windows 11 Pro",
+    "release": "10.0.22000",
+    "codename": "21H2",
+    "kernel": "10.0.22000",
+    "arch": "x64",
+    "hostname": "Adnans-PC",
+    "fqdn": "ADNANS-PC",
+    "codepage": "437",
+    "logofile": "windows",
+    "serial": "00330-80000-00000-AA267",
+    "build": "22000",
+    "servicepack": "0.0",
+    "uefi": false,
+    "hypervisor": true,
+    "remoteSession": false
+  },
+  "audio": [
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1458A182&REV_1003\\4&11D6FE01&1&0001",
+      "name": "Realtek High Definition Audio",
+      "manufacturer": "Realtek",
+      "revision": null,
+      "driver": null,
+      "default": null,
+      "channel": null,
+      "type": "Sound Driver",
+      "in": null,
+      "out": null,
+      "status": "enabled"
+    },
+    {
+      "id": "HDAUDIO\\FUNC_01&VEN_8086&DEV_2809&SUBSYS_80860101&REV_1000\\4&11D6FE01&1&0201",
+      "name": "Intel(R) Display Audio",
+      "manufacturer": "Intel(R) Corporation",
+      "revision": null,
+      "driver": null,
+      "default": null,
+      "channel": null,
+      "type": "Speaker",
+      "in": null,
+      "out": null,
+      "status": "enabled"
+    },
+    {
+      "id": "USB\\VID_1B3F&PID_2008&MI_00\\6&F6FE966&0&0000",
+      "name": "USB Audio Device",
+      "manufacturer": "(Generic USB Audio)",
+      "revision": null,
+      "driver": null,
+      "default": null,
+      "channel": null,
+      "type": "",
+      "in": null,
+      "out": null,
+      "status": "enabled"
+    },
+    {
+      "id": "ROOT\\MEDIA\\0000",
+      "name": "e2eSoft iVCam",
+      "manufacturer": "e2eSoft",
+      "revision": null,
+      "driver": null,
+      "default": null,
+      "channel": null,
+      "type": "",
+      "in": null,
+      "out": null,
+      "status": "enabled"
+    },
+    {
+      "id": "ROOT\\MEDIA\\0001",
+      "name": "e2eSoft iVCam",
+      "manufacturer": "e2eSoft",
+      "revision": null,
+      "driver": null,
+      "default": null,
+      "channel": null,
+      "type": "",
+      "in": null,
+      "out": null,
+      "status": "enabled"
+    }
+  ],
+  "cpu": {
+    "manufacturer": "Intel",
+    "brand": "Core™ i5-6500",
+    "vendor": "GenuineIntel",
+    "family": "6",
+    "model": "94",
+    "stepping": "3",
+    "revision": "24067",
+    "voltage": "",
+    "speed": 3.2,
+    "speedMin": 3.2,
+    "speedMax": 3.2,
+    "governor": "",
+    "cores": 4,
+    "physicalCores": 4,
+    "performanceCores": 4,
+    "efficiencyCores": 0,
+    "processors": 1,
+    "socket": "LGA1151",
+    "flags": "de pse mce sep mtrr mca cmov psn clfsh ds acpi mmx fxsr sse sse2 ss htt tm ia64 pbe",
+    "virtualization": true,
+    "cache": {
+      "l1d": 128,
+      "l1i": 128,
+      "l2": 1048576,
+      "l3": 6291456
+    }
+  },
+  "graphics": {
+    "controllers": [
+      {
+        "vendor": "Intel Corporation",
+        "model": "Intel(R) HD Graphics 530",
+        "bus": "PCI",
+        "vram": 1024,
+        "vramDynamic": true,
+        "subDeviceId": "D0001458"
+      }
+    ],
+    "displays": [
+      {
+        "vendor": "ACR",
+        "model": "EK0Q H3",
+        "serial": "4350ED973W01",
+        "productionYear": 2023,
+        "displayId": "display\\acr0b96\\4&15c7c351&0&uid198171_0",
+        "deviceName": "\\\\.\\DISPLAY1",
+        "main": true,
+        "builtin": false,
+        "connection": "HDMI",
+        "resolutionX": 1920,
+        "resolutionY": 1080,
+        "sizeX": 48,
+        "sizeY": 26,
+        "pixelDepth": 32,
+        "currentResX": 1920,
+        "currentResY": 1080,
+        "positionX": 0,
+        "positionY": 0,
+        "currentRefreshRate": 59
+      }
+    ]
+  },
+  "gpu_model": "intel(r) hd graphics 530",
+  "gpu_driver": null,
+  "vram": 1,
+  "shell": "CMD",
+  "system": {
+    "manufacturer": "Gigabyte Technology Co., Ltd.",
+    "model": "B150M-DS3H",
+    "version": "Default string",
+    "serial": "Default string",
+    "uuid": "038d0240-045c-057e-8306-8c0700080009",
+    "sku": "Default string",
+    "virtual": false
+  }
+}

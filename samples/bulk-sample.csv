@@ -1,0 +1,6 @@
+Name,URL,Description,Category
+Open-Meteo,https://open-meteo.com,Free weather forecast API with no API key,Travel
+Stripe Payments API,https://stripe.com/docs/api,Accept payments online. Requires API key,Business
+Hugging Face Inference,https://huggingface.co/inference-api,Run machine learning models via REST. Free tier available,AI
+Shopify Admin API,https://shopify.dev/docs/api/admin,Manage products and orders for your store,
+GitHub REST API,https://docs.github.com/rest,Repositories issues and pull requests. OAuth token required,

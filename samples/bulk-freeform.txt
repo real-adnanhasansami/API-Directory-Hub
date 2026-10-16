@@ -1,0 +1,5 @@
+# Free-form lines work too: any mix of these styles
+- Spotify Web API - https://developer.spotify.com/ - Music catalog and playlists, needs OAuth
+https://api.nasa.gov
+[Cat Facts](https://catfact.ninja) Random cat facts, free to use
+3) Etsy Open API: https://developers.etsy.com marketplace listings and shops

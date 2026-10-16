@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "skills": {
+    "pinokio": {
+      "id": "pinokio",
+      "source": "builtin",
+      "ref": "",
+      "enabled": true,
+      "publishName": "pinokio",
+      "builtin": true,
+      "removable": false,
+      "installedAt": "2026-10-16T11:48:16.817Z",
+      "updatedAt": "2026-10-16T11:48:16.820Z"
+    },
+    "gepeto": {
+      "id": "gepeto",
+      "source": "builtin",
+      "ref": "",
+      "enabled": true,
+      "publishName": "gepeto",
+      "builtin": true,
+      "removable": false,
+      "installedAt": "2026-10-16T11:48:16.817Z",
+      "updatedAt": "2026-10-16T11:48:16.817Z"
+    }
+  }
+}

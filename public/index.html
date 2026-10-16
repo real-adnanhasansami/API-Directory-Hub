@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API Directory Hub</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236366f1'/%3E%3Cpath d='M16 7l9 4.5-9 4.5-9-4.5zM7 16l9 4.5 9-4.5M7 20.5l9 4.5 9-4.5' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem('apihub.theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="icon-btn only-mobile" id="menuBtn" aria-label="Toggle categories"></button>
+  <a class="brand" id="brand" href="#" aria-label="API Directory Hub home"><span class="logo" id="brandIcon"></span><span class="brand-text">API Directory <b>Hub</b></span></a>
+  <span class="spacer"></span>
+  <button class="btn ghost" id="adminBtn" aria-label="Admin panel"></button>
+  <button class="icon-btn" id="themeBtn" aria-label="Toggle theme"></button>
+</header>
+<div class="scrim" id="scrim"></div>
+<div class="shell">
+  <aside class="sidebar" id="sidebar" aria-label="Sidebar"></aside>
+  <main class="main" id="main">
+    <div id="browse">
+      <div class="sticky-bar" id="searchbar"></div>
+      <div class="summary" id="summary"></div>
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" hidden><div class="empty-ic">∅</div><h3>No APIs match</h3><p class="muted">Try fewer words, another category, or clear the filters.</p></div>
+      <div class="sentinel" id="sentinel" hidden><span class="spinner"></span></div>
+    </div>
+    <div id="adminRoot" hidden></div>
+  </main>
+</div>
+<div id="boot" class="boot"><div class="spinner big"></div><p id="bootMsg">Loading directory…</p></div>
+<div id="modal-root"></div>
+<div id="toast-root" aria-live="polite"></div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

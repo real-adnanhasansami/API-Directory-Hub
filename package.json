@@ -1,0 +1,11 @@
+{
+  "name": "api-directory-hub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted, offline API Directory Hub (static SPA) for Pinokio",
+  "scripts": {
+    "start": "node server.js",
+    "build-data": "node tools/build-data.mjs"
+  }
+}

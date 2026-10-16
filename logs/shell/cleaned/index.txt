@@ -1,0 +1,19 @@
+######################################################################
+#
+# group: undefined
+# id: 5ffe8f72-80e5-44bb-9cba-0f1b788cc8d3
+# index: 0
+# cmd: reg query HKLM\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPathsEnabled
+# timestamp: 10/16/2026, 5:48:10 PM (1792151290945)
+
+Microsoft Windows [Version 10.0.22000.2538]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ADNAN\Downloads\api-hub\api-hub\bin>reg query HKLM\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPathsEnabled
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem
+    LongPathsEnabled    REG_DWORD    0x0
+
+
+C:\Users\ADNAN\Downloads\api-hub\api-hub\bin>
+
